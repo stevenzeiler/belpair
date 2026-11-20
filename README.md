@@ -2,11 +2,11 @@
 
 A TypeScript library for managing SECP256k1 key pairs, forked from [bitcoinjs/ecpair](https://github.com/bitcoinjs/ecpair) and published under the name `belpair`.
 
-**Status:** dormant since 2024-08. Last upstream-style package bump 2024-08-05, last commit by Steven 2024-08-26 (a README change). Version in `package.json` is 0.1.3.
+**Status:** dormant since 2024-08. The last commit on `main` is a package bump by another contributor on 2024-08-05. Steven's only commit, a README import rename on 2024-08-26, sits on the unmerged `patch-1` branch. Version in `package.json` is 0.1.3.
 
 ## Where it came from
 
-Almost all of the code is the work of the [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) contributors, under the MIT licence in `LICENSE`. This fork's history adds a few changes by other contributors: dropping the `randombytes` library, adding a random value for signing, a WIF version update and a Buffer type fix. It depends on `belcoinjs-lib` instead of `bitcoinjs-lib`, which suggests it targets a Bitcoin-derived chain with its own network parameters **(inference)**. Steven's own change is a README edit.
+Almost all of the code is the work of the [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) contributors, under the MIT licence in `LICENSE`. This fork's history adds a few changes by other contributors: dropping the `randombytes` library, adding a random value for signing, a WIF version update and a Buffer type fix. It depends on `belcoinjs-lib` instead of `bitcoinjs-lib`, which suggests it targets a Bitcoin-derived chain with its own network parameters **(inference)**. Steven's own change is a README edit on the `patch-1` branch.
 
 ## Install
 

@@ -7,7 +7,7 @@ Updated 2026-11-20.
 
 ## What's broken or unknown
 - `npm test` references a `test/` folder that is not in the repo.
-- The README import name was `ecpair` upstream; check the published package matches the `belpair` name.
+- The README import name was `ecpair` upstream. Steven's rename to `belpair` is on the unmerged `patch-1` branch; this README now uses `belpair`, so `patch-1` can probably be closed **(inference)**. Check the published package matches the `belpair` name.
 - `src/` is git-ignored but `main` points at it, so consumers need the build output from npm.
 - Whether `belpair` is published on npm and used by a live app is unknown, ask Steven.
 - The previous README held an upstream example WIF string. It was replaced with a placeholder here; it is a public documentation example, but git history still contains it.
